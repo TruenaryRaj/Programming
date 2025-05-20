@@ -1,11 +1,10 @@
-﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.13.35931.197 d17.13
+VisualStudioVersion = 17.5.2.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Programming", "Programming\Programming.csproj", "{B4ABEB33-DCA9-4068-8EC4-DE525D03DEB5}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Abstraction", "Abstraction", "{C8BF836A-9B22-DC78-821E-C52BC5E0E6B3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractionDemo", "AbstractionDemo\AbstractionDemo.csproj", "{B306A2A2-2DE0-4E34-8C09-1E87FA245568}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractionDemo", "Abstraction\AbstractionDemo\AbstractionDemo.csproj", "{AD78DDA9-8FB6-675F-6446-7BF0433C53BE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,19 +12,18 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{B4ABEB33-DCA9-4068-8EC4-DE525D03DEB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B4ABEB33-DCA9-4068-8EC4-DE525D03DEB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B4ABEB33-DCA9-4068-8EC4-DE525D03DEB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B4ABEB33-DCA9-4068-8EC4-DE525D03DEB5}.Release|Any CPU.Build.0 = Release|Any CPU
-		{B306A2A2-2DE0-4E34-8C09-1E87FA245568}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B306A2A2-2DE0-4E34-8C09-1E87FA245568}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B306A2A2-2DE0-4E34-8C09-1E87FA245568}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B306A2A2-2DE0-4E34-8C09-1E87FA245568}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD78DDA9-8FB6-675F-6446-7BF0433C53BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD78DDA9-8FB6-675F-6446-7BF0433C53BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD78DDA9-8FB6-675F-6446-7BF0433C53BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD78DDA9-8FB6-675F-6446-7BF0433C53BE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{AD78DDA9-8FB6-675F-6446-7BF0433C53BE} = {C8BF836A-9B22-DC78-821E-C52BC5E0E6B3}
+	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {1F89BC4B-E499-4A9B-8744-279EB2DBC18B}
+		SolutionGuid = {09734FD2-EB12-498E-9EC6-3ED63438FC5C}
 	EndGlobalSection
 EndGlobal

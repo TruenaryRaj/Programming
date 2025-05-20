@@ -9,7 +9,7 @@
 // Abstract class Vehicle with abstract methods
 public abstract class Vehicle
     {
-        protected string FuelType;         //declaring public property FuelType so that every derived class can access it.
+        public string FuelType;         //declaring public property FuelType so that every derived class can access it.
         public abstract void Start();
         public abstract void Stop();
         public abstract void Display();
