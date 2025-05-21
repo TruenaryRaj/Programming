@@ -9,8 +9,13 @@
 // Abstract class Vehicle with abstract methods
 public abstract class Vehicle
     {
-        protected string FuelType;         //declaring public property FuelType so that every derived class can access it.
-        public abstract void Start();
+        protected string FuelType;         //declaring protected property FuelType so that every derived class can access it.
+       
+        public Vehicle(string fuelType) // Constructor to initialize FuelType
+         {
+        FuelType = fuelType;
+         }
+    public abstract void Start();
         public abstract void Stop();
         public abstract void Display();
     }
@@ -20,7 +25,8 @@ public abstract class Vehicle
 // Derived class Car implementing abstract methods
 public class Car : Vehicle
     {
-        public override void Start()
+        public Car(string fuelType) : base(fuelType) { } //calling base class constructor to initialize FuelType
+         public override void Start()
         {
             Console.WriteLine("Car starting with " + FuelType);
         }
@@ -39,7 +45,9 @@ public class Car : Vehicle
     // Derived class Bike implementing abstract methods
     public class Bike : Vehicle
     {
-        public override void Start()
+
+        public Bike(string fuelType) : base(fuelType) { }   //calling base class constructor to initialize FuelType
+         public override void Start()
         {
             Console.WriteLine("Bike starting with " + FuelType);
         }
@@ -59,8 +67,8 @@ public class Car : Vehicle
     {
         static void Main(string[] args)
         {
-            Vehicle CarObject = new Car { FuelType = "Diesel" };  //Creating object of Car class Reference of Vehicle by which only vehicle class members can be accessed
-            Vehicle BikeObject = new Bike { FuelType = "Petrol" }; // Initiaing parent property at the time of object creation.
+            Vehicle CarObject = new Car("Diesel" );  //Creating object of Car class Reference of Vehicle by which only vehicle class members can be accessed
+            Vehicle BikeObject = new Bike("Petrol"); // Initiaing parent property at the time of object creation.
 
             CarObject.Display();
             CarObject.Start();
