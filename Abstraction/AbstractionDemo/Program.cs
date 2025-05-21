@@ -9,8 +9,13 @@
 // Abstract class Vehicle with abstract methods
 public abstract class Vehicle
     {
-        protected string FuelType;         //declaring public property FuelType so that every derived class can access it.
-        public abstract void Start();
+        protected string FuelType;         //declaring protected property FuelType so that every derived class can access it.
+       
+        public Vehicle(string fuelType) // Constructor to initialize FuelType
+         {
+        FuelType = fuelType;
+         }
+    public abstract void Start();
         public abstract void Stop();
         public abstract void Display();
     }
@@ -20,11 +25,8 @@ public abstract class Vehicle
 // Derived class Car implementing abstract methods
 public class Car : Vehicle
     {
-        public Car(string FuelType)
-        {
-        this.FuelType = FuelType; // Initializing FuelType property
-        }
-        public override void Start()
+        public Car(string fuelType) : base(fuelType) { }
+         public override void Start()
         {
             Console.WriteLine("Car starting with " + FuelType);
         }
@@ -44,11 +46,8 @@ public class Car : Vehicle
     public class Bike : Vehicle
     {
 
-        public Bike(string FuelType)
-        {
-        this.FuelType = FuelType; // Initializing FuelType property
-        }
-    public override void Start()
+        public Bike(string fuelType) : base(fuelType) { }
+        public override void Start()
         {
             Console.WriteLine("Bike starting with " + FuelType);
         }
