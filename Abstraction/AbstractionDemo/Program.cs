@@ -25,7 +25,7 @@ public abstract class Vehicle
 // Derived class Car implementing abstract methods
 public class Car : Vehicle
     {
-        public Car(string fuelType) : base(fuelType) { }
+        public Car(string fuelType) : base(fuelType) { } //calling base class constructor to initialize FuelType
          public override void Start()
         {
             Console.WriteLine("Car starting with " + FuelType);
@@ -46,8 +46,8 @@ public class Car : Vehicle
     public class Bike : Vehicle
     {
 
-        public Bike(string fuelType) : base(fuelType) { }
-        public override void Start()
+        public Bike(string fuelType) : base(fuelType) { }   //calling base class constructor to initialize FuelType
+         public override void Start()
         {
             Console.WriteLine("Bike starting with " + FuelType);
         }
