@@ -1,8 +1,12 @@
 ﻿/*  This program demonstrates encapsulation by creating a Student class that encapsulates the properties and methods related to a student. 
     The student class contains the details of the student with the field name, grades, and subject. where grades and subject are defined as list
     i.e student can have multiple subjects and respective grades. 
-    In the main method we create a list of student type so that it would hold multiple student objects as everytime new student object is created.
- * */
+
+    As the object of Student class is created with the name of the student, it will pass the name to AddStudent method in which the user will
+    have to enter the subject and their respective grades of the student, and add to AddGrade method.
+    As soon as the loop of subject and grades ends the calculate average is called to calculate the average of the grades and display it.
+    
+ */
 public class Student
 {
     public string name { get; }
@@ -15,8 +19,7 @@ public class Student
         AddStudent(name);
     }
 
-
-    public void AddGrade(string subjectName, double grade)
+    private void AddGrade(string subjectName, double grade)
     {
         if (string.IsNullOrEmpty(subjectName) || grade < 0)
         {
@@ -25,9 +28,9 @@ public class Student
         SubjectGrades[subjectName] = grade;
     }
 
-    public void AddStudent(string name)
+    private void AddStudent(string name)
     {
-        Console.WriteLine($"Welcome{name}");
+        Console.WriteLine($"Welcome {name}");
         Console.WriteLine("Enter total number of subject:");
         int totalSubject = Convert.ToInt32(Console.ReadLine());
         Console.WriteLine("Please enter the subject name and grade");
@@ -43,8 +46,8 @@ public class Student
 
         CalculateAverage();
     }
-    //method to calculate the average of the grades
-    public void CalculateAverage()
+ 
+    private void CalculateAverage()
     {
         double total = 0;
         foreach (int grade in SubjectGrades.Values)
@@ -60,8 +63,7 @@ public class Program
     static void Main()
     {
 
-        Student student1 = new Student("John");
-
+        Student student1 = new Student("Ram");
 
         // to hold the console window even after the program ends
         Console.ReadLine();
