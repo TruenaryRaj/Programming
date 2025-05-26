@@ -12,6 +12,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EncapsulationDemo", "Encaps
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EncapsulationAbstraction", "Encapsulation\EncapsulationAbstraction\EncapsulationAbstraction.csproj", "{2DD32E53-7711-434E-870D-E70E46574ED9}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Interface", "Interface", "{4878A79D-B6FF-438B-9267-A1A5B4988904}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterfaceDemo", "Interface\InterfaceDemo\InterfaceDemo.csproj", "{6BB653FA-6DB0-4CD5-ABC0-09115A6D223E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,6 +34,10 @@ Global
 		{2DD32E53-7711-434E-870D-E70E46574ED9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2DD32E53-7711-434E-870D-E70E46574ED9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2DD32E53-7711-434E-870D-E70E46574ED9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6BB653FA-6DB0-4CD5-ABC0-09115A6D223E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BB653FA-6DB0-4CD5-ABC0-09115A6D223E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BB653FA-6DB0-4CD5-ABC0-09115A6D223E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BB653FA-6DB0-4CD5-ABC0-09115A6D223E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -38,6 +46,7 @@ Global
 		{AD78DDA9-8FB6-675F-6446-7BF0433C53BE} = {C8BF836A-9B22-DC78-821E-C52BC5E0E6B3}
 		{4532FDED-8AC3-4FAB-84A2-FCBC8044EF9C} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 		{2DD32E53-7711-434E-870D-E70E46574ED9} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{6BB653FA-6DB0-4CD5-ABC0-09115A6D223E} = {4878A79D-B6FF-438B-9267-A1A5B4988904}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {09734FD2-EB12-498E-9EC6-3ED63438FC5C}
