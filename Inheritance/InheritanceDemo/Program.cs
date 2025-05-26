@@ -1,4 +1,11 @@
-﻿using System;
+﻿/*This program is all about a simple example of inheritance. This program demonstrates how to create a base class 'Employee'
+ * and their derived classes 'FullTimeEmployee' and 'PartTimeEmployee' and how to use them as well.
+ * Employee class is the base class which contains common properties like (Name, Id, Department) and methods to display employee information.
+ * Where as the derived classes fulltime and parttime have their own specific properties and methods to calculate the salary of the employee.
+ * As we can see the DisplayInfo method is available in all the classes and it is overridden in the derived classes to include specific information(run time).
+ * As we can see the the object of both Fulltime and PartTime classes are created with the instance of the base class Employee. so while calling it would call 
+ * the base class method but it is overridden by the derived class.
+ */
 
 public class Employee
 {
