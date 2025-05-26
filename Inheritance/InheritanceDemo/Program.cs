@@ -28,39 +28,39 @@ public class Employee
 }
 public class FullTimeEmployee : Employee
 {
-    private double Salary { get; set; }
+    private double _salary { get; set; }
 
     public FullTimeEmployee(string name, int id, string department, double salary)
         : base(name, id, department)
     {
-        Salary = salary;
+        _salary = salary;
     }
     public override void DisplayInfo()
     {
         base.DisplayInfo();
-        Console.WriteLine($"Monthly Salary: ${Salary:F2}");
+        Console.WriteLine($"Monthly Salary: ${_salary:F2}");
     }
 }
 public class PartTimeEmployee : Employee
 {
-    private double HourlyRate { get; set; }
-    private int HoursWorked { get; set; }
+    private double _hourlyRate { get; set; }
+    private int _hoursWorked { get; set; }
 
     public PartTimeEmployee(string name, int id, string department, double hourlyRate, int hoursWorked)
         : base(name, id, department)
     {
-        HourlyRate = hourlyRate;
-        HoursWorked = hoursWorked;
+        _hourlyRate = hourlyRate;
+        _hoursWorked = hoursWorked;
     }
     public double CalculatePay()
     {
-        return HourlyRate * HoursWorked;
+        return _hourlyRate * _hoursWorked;
     }
     public override void DisplayInfo()
     {
         base.DisplayInfo();
-        Console.WriteLine($"Hourly Rate: ${HourlyRate:F2}");
-        Console.WriteLine($"Hours Worked: {HoursWorked}");
+        Console.WriteLine($"Hourly Rate: ${_hourlyRate:F2}");
+        Console.WriteLine($"Hours Worked: {_hoursWorked}");
         Console.WriteLine($"Total Pay: ${CalculatePay():F2}");
     }
 }
