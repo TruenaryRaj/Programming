@@ -24,6 +24,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ObjectAndConstructors", "Ob
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConstructorsDemo", "ObjectAndConstructors\ConstructorsDemo\ConstructorsDemo.csproj", "{7EDFD72D-BF4F-1E82-5D22-6F3B598A4442}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "StaticClass", "StaticClass", "{B8597C37-ADB3-46FF-ACF3-6732757CC459}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StaticClass", "StaticClass\StaticClass\StaticClass.csproj", "{5F7A54A5-4819-4EB1-99BA-FA9D37835C59}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -54,6 +58,10 @@ Global
 		{7EDFD72D-BF4F-1E82-5D22-6F3B598A4442}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7EDFD72D-BF4F-1E82-5D22-6F3B598A4442}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7EDFD72D-BF4F-1E82-5D22-6F3B598A4442}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F7A54A5-4819-4EB1-99BA-FA9D37835C59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F7A54A5-4819-4EB1-99BA-FA9D37835C59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F7A54A5-4819-4EB1-99BA-FA9D37835C59}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F7A54A5-4819-4EB1-99BA-FA9D37835C59}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -65,6 +73,7 @@ Global
 		{C599C3A0-E9D1-032D-5909-CD16897C1EBF} = {23B6177C-E7C9-4DD3-A974-E7DCC91C9C72}
 		{E03C8394-6ED9-59F9-905C-6C6AF304E9A9} = {DF721530-3286-4817-B29D-8C1D93FD2AE3}
 		{7EDFD72D-BF4F-1E82-5D22-6F3B598A4442} = {F0BA6FF3-5726-4B14-BE51-D2827CD9205A}
+		{5F7A54A5-4819-4EB1-99BA-FA9D37835C59} = {B8597C37-ADB3-46FF-ACF3-6732757CC459}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {09734FD2-EB12-498E-9EC6-3ED63438FC5C}
