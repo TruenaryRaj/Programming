@@ -17,3 +17,16 @@ Polymorphism Demo(Example)
 Polymorphism/PolymorphismDemo/Program.cs
 
 
+Object and Constructors (Example)
+ObjectAndConstructors/ConstructorsDemo/Program.cs
+
+Static class and static variable (Example)
+StaticClass/StaticClass/Program.cs
+
+Interface Demo(Example)
+Interface/InterfaceDemo/Program.cs
+
+Generics (Example)
+Generics/GenericInterface/Program.cs
+Generics/GenericsDemo/Program.cs
+
