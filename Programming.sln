@@ -20,6 +20,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Polymorphism", "Polymorphis
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PolymorphismDemo", "Polymorphism\PolymorphismDemo\PolymorphismDemo.csproj", "{E03C8394-6ED9-59F9-905C-6C6AF304E9A9}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ObjectAndConstructors", "ObjectAndConstructors", "{F0BA6FF3-5726-4B14-BE51-D2827CD9205A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConstructorsDemo", "ObjectAndConstructors\ConstructorsDemo\ConstructorsDemo.csproj", "{7EDFD72D-BF4F-1E82-5D22-6F3B598A4442}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -46,6 +50,10 @@ Global
 		{E03C8394-6ED9-59F9-905C-6C6AF304E9A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E03C8394-6ED9-59F9-905C-6C6AF304E9A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E03C8394-6ED9-59F9-905C-6C6AF304E9A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7EDFD72D-BF4F-1E82-5D22-6F3B598A4442}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7EDFD72D-BF4F-1E82-5D22-6F3B598A4442}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7EDFD72D-BF4F-1E82-5D22-6F3B598A4442}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7EDFD72D-BF4F-1E82-5D22-6F3B598A4442}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -56,6 +64,7 @@ Global
 		{2DD32E53-7711-434E-870D-E70E46574ED9} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 		{C599C3A0-E9D1-032D-5909-CD16897C1EBF} = {23B6177C-E7C9-4DD3-A974-E7DCC91C9C72}
 		{E03C8394-6ED9-59F9-905C-6C6AF304E9A9} = {DF721530-3286-4817-B29D-8C1D93FD2AE3}
+		{7EDFD72D-BF4F-1E82-5D22-6F3B598A4442} = {F0BA6FF3-5726-4B14-BE51-D2827CD9205A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {09734FD2-EB12-498E-9EC6-3ED63438FC5C}
