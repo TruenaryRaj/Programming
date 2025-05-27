@@ -22,10 +22,6 @@ public class ReportGenerator<T> where T : IReportable
             report.Report();
         }
     }
-    public void Report(T value)
-    {
-        System.Console.WriteLine($"Reporting: {value}");
-    }
 }
 public class Student : IReportable
 {
